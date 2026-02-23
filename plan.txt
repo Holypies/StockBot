@@ -1,0 +1,17 @@
+1. Hitta en api som ger data för hela företaget
+2. Komma på ett sätt att dela upp företagen i sektorer (vad dem gör tech, finance etc)
+3. Kolla på storkastigsa algoritmer som kan förespå hur priset kommer ändras
+	- AI
+	- Filter (kalman, LMS, deeperst decent)
+	- MISO (multi input one output)
+4. Algoritm för att vikta köp/sälj behavior
+5. Mock setup
+6. Språk att skriva det i
+	- python?
+7. Kolla på liknande projekt
+	- quants?
+	- open source
+8. Vilka företag ska vi undersöka?
+	- s&p500
+	- nasdaq
+
