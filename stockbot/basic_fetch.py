@@ -16,12 +16,15 @@ def start_streaming():
     ws.listen(message_handler)
 
 
-stream_thread = threading.Thread(target=start_streaming, daemon=True)
-stream_thread.start()
 
-print("Waiting for data to hit the dictionary...")
-time.sleep(5)
-
-while True:
-    print(f"\nLatest Registry: ", live_registry)
-    time.sleep(1)
+# Simple test
+#
+#stream_thread = threading.Thread(target=start_streaming, daemon=True)
+#stream_thread.start()
+#
+#print("Waiting for data to hit the dictionary...")
+#time.sleep(5)
+#
+#while True:
+#    print(f"\nLatest Registry: ", live_registry)
+#    time.sleep(1)
