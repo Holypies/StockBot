@@ -7,10 +7,10 @@ class MovingAverageFilter:
         self.weigths = kwargs.get('weigths', np.ones(window_size))
 
     def insert_new_value(self, u):
-        if len(self.window) <= self.window_size:
+        if len(self.window) < self.window_size:
             self.window.append(u)
         else:
-            self.window.pop()
+            self.window.pop(0)
             self.window.append(u)
     
     def get_average(self):

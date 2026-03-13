@@ -23,7 +23,7 @@ def start_streaming():
 vrls= VFF_RLS_Predictor()
 
 # 5 min 
-hist = 5*60
+hist = 15
 ma = MovingAverageFilter(hist)
 ma_pred = MovingAverageFilter(hist)
 
