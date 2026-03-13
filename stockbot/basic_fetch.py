@@ -1,6 +1,4 @@
 import yfinance as yf
-import threading
-import time
 
 live_registry = {}
 

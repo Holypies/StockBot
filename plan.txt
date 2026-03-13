@@ -15,3 +15,7 @@
 	- s&p500
 	- nasdaq
 
+9. serverside
+	- köra modeller
+	- visa resultat/beslut historik(grafer)
+
